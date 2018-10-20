@@ -30,6 +30,7 @@
         .movie-tile {
             margin-bottom: 20px;
             padding-top: 20px;
+            position: relative;
         }
         .movie-tile:hover {
             background-color: #EEE;
@@ -47,6 +48,22 @@
             left: 0;
             top: 0;
             background-color: white;
+        }
+
+        .movie-tile .storyline {
+            display: none;
+            position: absolute;
+            top: 0;
+            padding: 50px;
+            background: rgba(0,0,0,0.6);
+            color: #ffffff;
+            height: 100%;
+            right: 0;
+            left: 0;
+            bottom: 0;
+        }
+        .movie-tile:hover .storyline {
+            display: block;
         }
     </style>
     <script type="text/javascript" charset="utf-8">
@@ -106,22 +123,42 @@
       
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="s2-1hz1juBI" data-toggle="modal" data-target="#trailer">
     <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/a/a0/Hacksaw_Ridge.png/250px-Hacksaw_Ridge.png" width="220" height="342">
+
     <h2>Hacksaw Ridge</h2>
+    <span class="storyline">
+        <h2>Hacksaw Ridge</h2>
+        The true story of Pfc. Desmond T. Doss (Andrew Garfield), who won the Congressional Medal of Honor despite refusing to bear arms during WWII on religious grounds.
+    </span>
 </div>
 
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="2DbRwcrhiLA" data-toggle="modal" data-target="#trailer">
     <img src="https://images-na.ssl-images-amazon.com/images/I/51d5Ql7hrHL._SX331_BO1,204,203,200_.jpg" width="220" height="342">
+
     <h2>War Room</h2>
+    <span class="storyline">
+        <h2>War Room</h2>
+        With great jobs, a beautiful daughter (Alena Pitts) and a dream house, the Jordans seem to have it all. 
+    </span>
 </div>
 
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="wIKExeMVksk" data-toggle="modal" data-target="#trailer">
     <img src="https://upload.wikimedia.org/wikipedia/en/c/cf/God%27s_Not_Dead.jpg" width="220" height="342">
+
     <h2>God is not dead</h2>
+    <span class="storyline">
+        <h2>God is not dead</h2>
+        The Rev. Dave Hill faces an unexpected setback when his beloved church burns down -- prompting the officials at the adjoining university to try and kick his congregation off campus.
+    </span>
 </div>
 
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="89Kq8SDyvfg" data-toggle="modal" data-target="#trailer">
     <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/1/1e/The_Pursuit_of_Happyness.jpg/200px-The_Pursuit_of_Happyness.jpg" width="220" height="342">
+
     <h2>The Pursuit of Happyness</h2>
+    <span class="storyline">
+        <h2>The Pursuit of Happyness</h2>
+        Life is a struggle for single father Chris Gardner (Will Smith). Evicted from their apartment, he and his young son (Jaden Christopher Syre Smith) find themselves alone with no place to go.
+    </span>
 </div>
 
     </div>
