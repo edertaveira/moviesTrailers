@@ -1,7 +1,7 @@
 import media
 import fresh_tomatoes
 
-#List of Movies Trailers 
+# List of Movies Trailers
 hacksaw = media.Movie("Hacksaw Ridge",
                       ("The true story of Pfc. Desmond T. Doss"
                        " (Andrew Garfield), who won the Congressional Medal "
@@ -42,6 +42,7 @@ pursuit = media.Movie("The Pursuit of Happyness",
                        "200px-The_Pursuit_of_Happyness.jpg"),
                       "https://www.youtube.com/watch?v=89Kq8SDyvfg")
 
-
+# Create a array of movies
 movies = [hacksaw, war_room, god_is_not_dead, pursuit]
+# Call the fresh_tomatoes and pass a object Movie that will load a HTML page
 fresh_tomatoes.open_movies_page(movies)
